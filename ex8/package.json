@@ -1,0 +1,14 @@
+{
+  "name": "webpack-demo09",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx cross-env DEBUG=true webpack-dev-server --open",
+    "build": "npx cross-env DEBUG=false webpack"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
